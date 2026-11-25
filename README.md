@@ -32,8 +32,7 @@
 7.	Compile that file with C compiler and verify the output.
 
 # INPUT
-
-
+```
 %{
  int COMMENT=0;
 %}
@@ -76,7 +75,7 @@ yylex(); printf("\n\n"); return 0;
 {
 return 0;
 }
-
+```
 # OUTPUT
 <img width="1744" height="902" alt="Windows Command Prompt Build Output" src="https://github.com/user-attachments/assets/701ee05b-53b6-4fcb-97e7-2dbbccca3fc3" />
 
